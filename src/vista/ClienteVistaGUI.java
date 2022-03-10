@@ -151,7 +151,7 @@ public class ClienteVistaGUI extends JFrame {
             if((unRegistro.toString()).contains(tfNombre.getText()+s1) || (unRegistro.toString().contains(tfNombre.getText()) && unRegistro.toString().contains(s1) )){
               
                     area.append(unRegistro.toString());
-               // System.out.println("AY CARAMBA");
+               
                contador++;
                 System.out.println(contador);
                 if(contador%2==0 && contador!=0){
